@@ -10,21 +10,38 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 
 ### 📦 Implantação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Passo-a-passo que informam como executar o projeto.
 
-Diga como essa etapa será:
-
-```
-Dar exemplos
-```
-
-E repita:
+Faça a copia do repositorio:
 
 ```
-Até finalizar
+$ git clone https://github.com/GustavoGebhardt/clube-backEnd
 ```
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+Entre na pasta do projeto:
+
+```
+$ cd clube-backEnd
+```
+
+Rodar o projeto em Ts:
+
+```
+$ node run dev
+```
+
+Rodar o projeto em Js:
+
+```
+$ node run build
+```
+Em seguida:
+
+```
+$ node run start
+```
+
+Sua aplicação estara rodando com sucesso.
 
 ## 🛠️ Construído com
 
@@ -32,7 +49,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 * [Fastify](https://fastify.dev/docs/latest/) - Framework web usado
 * [Prisma](https://www.prisma.io/docs) - Framework Database
-* [TS](https://www.typescriptlang.org/docs/) - Linguagem utilizada TS
+* [TS](https://www.typescriptlang.org/docs/) - Linguagem utilizada Ts
 
 ## ✒️ Autores
 
