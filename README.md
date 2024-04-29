@@ -8,6 +8,21 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
 
+## 🚢 Rotas
+
+Adicionar Usuario
+
+```
+post: /users
+{ 
+  name: nome do usuario
+}
+```
+
+Buscar Usuarios
+```
+get /users - retorna todos usuarios
+```
 ### 📦 Implantação
 
 Passo-a-passo que informam como executar o projeto.
@@ -15,30 +30,30 @@ Passo-a-passo que informam como executar o projeto.
 Faça a copia do repositorio:
 
 ```
-$ git clone https://github.com/GustavoGebhardt/clube-backEnd
+git clone https://github.com/GustavoGebhardt/clube-backEnd
 ```
 
 Entre na pasta do projeto:
 
 ```
-$ cd clube-backEnd
+cd clube-backEnd
 ```
 
 Rodar o projeto em Ts:
 
 ```
-$ node run dev
+node run dev
 ```
 
 Rodar o projeto em Js:
 
 ```
-$ node run build
+node run build
 ```
 Em seguida:
 
 ```
-$ node run start
+node run start
 ```
 
 Sua aplicação estara rodando com sucesso.
