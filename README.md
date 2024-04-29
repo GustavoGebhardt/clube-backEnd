@@ -1,6 +1,6 @@
 # Back-End Clube de Desenvolvimento de Jogos
 
-Back-end desenvolvido com finalidade de gerenciamento de Usuarios do Clube de Desenvolvimento de Jogos - IFRS Campus Feliz
+Back-end desenvolvido com finalidade de gerenciamento de Usuarios do Clube de Desenvolvimento de Jogos - IFRS Campus Feliz.
 
 ## 🚀 Começando
 
@@ -14,14 +14,15 @@ Adicionar Usuario
 
 ```
 post: /users
+
 { 
   name: nome do usuario
 }
 ```
 
-Buscar Usuarios
+Listar Usuarios
 ```
-get /users - retorna todos usuarios
+get: /users - retorna todos usuarios
 ```
 ### 📦 Implantação
 
